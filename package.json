@@ -1,0 +1,34 @@
+```json
+{
+  "name": "ai-integrated-real-time-multiplayer-game",
+  "version": "1.0.0",
+  "description": "A highly interactive and engaging multiplayer online game using Node.js that incorporates AI for dynamic game environment and player interactions, with advanced graphics rendering using WebGL/Three.js.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha test.js"
+  },
+  "keywords": [
+    "Node.js",
+    "WebSocket",
+    "AI",
+    "WebGL",
+    "Three.js",
+    "Real-Time",
+    "Multiplayer",
+    "Online Game"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ws": "^7.4.6",
+    "three": "^0.129.0",
+    "tensorflow": "^2.8.0"
+  },
+  "devDependencies": {
+    "mocha": "^8.4.0",
+    "chai": "^4.3.4"
+  }
+}
+```
